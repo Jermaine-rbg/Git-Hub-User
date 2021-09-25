@@ -18,7 +18,7 @@ const UserInfo = () => {
       },
       {
         id:2,icon:<FiUsers className="icon"/>,
-      label:'follwers', 
+      label:'followers', 
       value: followers, 
       color:'green'
 
@@ -40,17 +40,26 @@ const UserInfo = () => {
 
     
     ]
-    
+
   return <section className="section">
     <Wrapper classNmae="section-center">
 {items.map((item) =>{
-  return <p>item</p>;
+  return <Item key={item.id} {...item}></Item>;
 })}
     </Wrapper>
   </section>;
   
 };
 
+const Item = ({icon, label, value, color}) =>{
+  return <article className="item">
+    <span className={color}>{icon}</span>
+    <div>
+      <h3>{value}</h3>
+      <p>{label}</p>
+    </div>
+  </article>
+}
 const Wrapper = styled.section`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
