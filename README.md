@@ -1,39 +1,17 @@
-## Starter Project
+## React Project
 
-- css provided (global styles, styled components)
-- folders/files already setup
-- all imports included (warnings)
+- Created a development branch
 - index.js for easier imports
 
 ## Styled Components
 
 [Styled-Components - Main Docs](https://styled-components.com/)
 
-```jsx
-import styled from "styled-components";
-
-const ReactComponent = () => {
- // logic here
- return <Wrapper>
- {some content}
- </Wrapper>
-}
-
-
-const Wrapper = styled.htmlElement`
-write your styles here
-`
-export default ReactComponent
-```
 
 ## React Icons
 
 [React Icons - Main Docs](https://react-icons.github.io/react-icons/)
 
-```jsx
-import { FiUsers, FiUserPlus } from 'react-icons/fi';
-<FiUsers className='nameOfTheClass'> </FiUsers>;
-```
 
 ## React Router Dom
 
@@ -47,7 +25,7 @@ version used - "react-router-dom": "^5.2.0",
 ## Gihthub API
 
 - [Root Endpoint](https://api.github.com)
-- [Get User](https://api.github.com/users/wesbos)
+- [Get User](https://api.github.com/users/)
 - [Repos](https://api.github.com/users/jermaine-rbg/repos?per_page=100)
 - [Followers](https://api.github.com/users/jermaine-rbg/followers)
 - [Rate Limit](https://api.github.com/rate_limit)
@@ -64,19 +42,6 @@ version used - "react-router-dom": "^5.2.0",
 ## Auth0
 
 - [Auth0 - Main Docs](https://auth0.com/)
-
-- Create Application
-- Choose : Single Page Web Applications
-- Choose : React
-- Go to Settings Tab
-- Copy/Paste Domain, ClientID - can be public (or use .env)
-- Add Domain -
-  for now http://localhost:3000 (DON'T COPY PASTE FROM URL BAR)
-
-  - Allowed Callback URLs
-  - Allowed Logout URLs
-  - Allowed Web Origins
-  - SAVE CHANGES!!!!!!!!!!!!!!!
 
 - Connections
   email,social
