@@ -2,7 +2,7 @@ import { logDOM } from '@testing-library/dom';
 import React from 'react';
 import styled from 'styled-components';
 import { GithubContext } from '../context/context';
-import { ExampleChart, Pie3D, Column3D, Bar3D, Doughnut2D } from './Charts';
+import { Pie3D, Column3D, Bar3D, Doughnut2D } from './Charts';
 const Repos = () => {
   const{repos} = React.useContext(GithubContext)
 
@@ -10,7 +10,7 @@ const Repos = () => {
     const {language, stargazers_count} = item;
     if (!language) return total;
     if (!total[language]){
-      total[language] = {label:language, value:1, star:stargazers_count};
+      total[language] = {label:language, value:1, stars:stargazers_count};
     }
     else{
       total[language] = {
