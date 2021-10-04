@@ -1,4 +1,3 @@
-import { logDOM } from '@testing-library/dom';
 import React from 'react';
 import styled from 'styled-components';
 import { GithubContext } from '../context/context';

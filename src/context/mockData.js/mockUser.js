@@ -25,7 +25,7 @@ export default {
   "hireable": null,
   "bio": null,
   "twitter_username": null,
-  "public_repos": 15,
+  "public_repos": 14,
   "public_gists": 0,
   "followers": 0,
   "following": 0,

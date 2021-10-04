@@ -181,3 +181,9 @@ p {
 main {
   padding-bottom: 2rem;
 }
+
+
+#paypal-button-container {
+
+  padding-left: 500px;
+}
