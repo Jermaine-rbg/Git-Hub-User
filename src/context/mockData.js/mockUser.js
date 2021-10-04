@@ -28,7 +28,7 @@ export default {
   "public_repos": 14,
   "public_gists": 0,
   "followers": 0,
-  "following": 0,
+  "following": 1,
   "created_at": "2021-02-18T05:24:25Z",
-  "updated_at": "2021-09-21T03:38:22Z"
+  "updated_at": "2021-09-25T04:12:13Z"
 }
