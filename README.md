@@ -5,7 +5,7 @@
 
 ## Screenshots
 
-![Home Page](images/screenshot1.png "Home Page")
+![Home Page](images/screenshot3.png "Home Page")
 
 ## Styled Components
 
