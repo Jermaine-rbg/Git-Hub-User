@@ -5,7 +5,7 @@
 
 ## Screenshots
 
-![Home Page](public/screenshot3.png "Home Page")
+![Home Page](public/DreamReadmePic.jpg "Home Page")
 
 ## Styled Components
 
